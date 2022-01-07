@@ -1,0 +1,35 @@
+.card{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    /* justify-content: space-between; */
+
+}
+
+.list-items{
+    background-color: rgb(9, 152, 196);
+    width:50%;
+    border-radius: 5px;
+    /* height: 60vh; */
+    justify-content: space-between;
+    padding:15px;
+}
+
+.list-items ul li{
+    margin:10px 0;
+    padding:10px 35px;
+    border-radius: 10px;
+    border:1px solid #333;
+}
+
+.list-items li{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-items li i{
+    color:#fff;
+}
+

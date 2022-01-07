@@ -1,0 +1,95 @@
+.banner{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:30vh;
+  background-color: rgb(46, 152, 238);
+}
+
+.banner h1{
+  font-size:2.3rem;
+}
+
+
+
+form{
+  margin: 10px auto;
+  border-radius: 5px;
+  width: 50%;
+  text-align: center;
+    background-color: rgb(9, 152, 196);
+    padding:10px 35px;
+}
+
+form input{
+  border-radius: 10px;
+  padding:10px 35px;
+  border:1px solid #333;
+  outline:none;
+  background-color: #fff;
+}
+
+form button{
+  padding:5px 12px;
+  border-radius: 5px;
+  margin-left: 5px;
+  color:#333;
+  border:1px solid #fff;
+  outline: none;
+}
+
+.card{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding:20px;
+  /* justify-content: space-between; */
+
+}
+
+.list-items{
+  background-color: rgb(9, 152, 196);
+  width:50%;
+  border-radius: 5px;
+  /* height: 60vh; */
+  justify-content: space-between;
+  padding:15px;
+}
+
+.list-items ul li{
+  margin:10px 0;
+  padding:10px 35px;
+  border-radius: 10px;
+  border:1px solid #333;
+}
+
+.list-items li{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-items li i{
+  color:#fff;
+}
+
+
+@media (max-width:500px){
+  form{
+    width:100%;
+    margin:10px auto;
+  }
+
+
+  .list-items{
+    width:100%;
+    padding: 10px;
+    margin:0;
+  }
+
+  .list-items li{
+    justify-content: space-between;
+  }
+
+}
